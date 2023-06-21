@@ -1,0 +1,103 @@
+body {
+    background-color: red;
+}
+#backside {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+}
+#error {
+    position: absolute;
+    background-color: blue;
+    height: 60vh;
+    width: 50%;
+    border: 4px solid black;
+    left: 30%;
+    top: 24%;
+}
+#heading {
+    position: absolute;
+    right: 30%;
+}
+#close {
+    position: absolute;
+    border: 3px solid black;
+    height: 6vh;
+    width: 15%;
+    background-color: transparent;
+    cursor: pointer;
+    bottom: 30%;
+    left: 80%;
+}
+#close:hover {
+    background-color:  rgba(255, 255, 255, 0.5);
+}
+#close:active {
+    background-color: white;
+}
+#continue {
+    position: absolute;
+    border: 3px solid black;
+    height: 6vh;
+    width: 15%;
+    background-color: transparent;
+    cursor: pointer;
+    bottom: 30%;
+    left: 45%;
+}
+#continue:hover {
+    background-color:  rgba(255, 255, 255, 0.5);
+}
+#continue:active {
+    background-color: white;
+}
+#CopyError {
+    position: absolute;
+    border: 3px solid black;
+    height: 6vh;
+    width: 15%;
+    background-color: transparent;
+    cursor: pointer;
+    bottom: 30%;
+    left: 63%;
+}
+#CopyError:hover {
+    background-color:  rgba(255, 255, 255, 0.5);
+}
+#CopyError:active {
+    background-color: white;
+}
+#CopyMessage {
+    position: absolute;
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+    width: 22%;
+    height: 4vh;
+    right: 137%;
+    bottom: -28%;
+    display: none;
+    user-select: none;
+}
+#back {
+    position: absolute;
+    background-color: transparent;
+    border: 2px solid black;
+    cursor: pointer;
+    bottom: 30%;
+    right: 10%;
+    width: 15%;
+    height: 5vh;
+}
+#back:hover {
+    background-color:  rgba(255, 255, 255, 0.5);
+}
+#back:active {
+    background-color: white;
+}
+#NextPage {
+    display: none;
+}
+::selection {
+    background-color:  rgba(255, 255, 255, 0.5);
+}
